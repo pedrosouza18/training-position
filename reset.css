@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b2bec3;
+}
+
+ul, ol, li {
+    list-style: none;
+}

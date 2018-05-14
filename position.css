@@ -1,0 +1,39 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    /* line height do mesmo tamanho deixa o elemento centralizado */
+    line-height: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.elementExample_first {
+    background-color: #6c5ce7;
+    position: absolute;
+    right: 0;
+}
+.elementExample_second {
+    background-color: #00b894;
+    position: absolute;
+    /* Jogamos o elemento 50% a esquerda, mas ele não centraliza, somente o lado esquerdo, porque ele pega o tamanho da tela */
+    /* Para centralizar usamos o translate porque ele pega o valor do elemento e passamos o memso valor so que negativo */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.elementExample_last {
+    background-color: #d63031;
+    position: relative;
+}
+.elementExample-internal {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #00cec9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
